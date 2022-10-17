@@ -3,15 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RojoFragment"
-    android:background="@color/red"
-    android:id="@+id/rojoFragment">
+    tools:context=".VerdeFragment"
+    android:background="@color/green"
+    android:id="@+id/verdeFragment">
 
     <Button
-        android:id="@+id/btnRojo"
+        android:id="@+id/btnVerde"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:text="@string/__1"
+        android:text="@string/_1"
         android:layout_gravity="center"/>
 
 </FrameLayout>

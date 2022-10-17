@@ -4,21 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="horizontal">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentAzul"
         android:name="com.example.fragmentocolores_pmdm.AzulFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
         tools:layout="@layout/fragment_azul" />
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentRojo"
-        android:name="com.example.fragmentocolores_pmdm.RojoFragment"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout="@layout/fragment_rojo" />
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentRojo"
+            android:name="com.example.fragmentocolores_pmdm.RojoFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_rojo" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentVerde"
+            android:name="com.example.fragmentocolores_pmdm.VerdeFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_verde" />
+    </LinearLayout>
 
 </LinearLayout>

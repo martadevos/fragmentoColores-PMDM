@@ -2,4 +2,7 @@
     <string name="app_name">fragmentoColores-PMDM</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_1">+1</string>
+    <string name="__1">-1</string>
+    <string name="_0">0</string>
 </resources>

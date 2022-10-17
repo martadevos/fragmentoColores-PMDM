@@ -7,11 +7,12 @@
     android:background="@color/blue"
     android:id="@+id/azulFragment">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text="+1"
+    <TextView
+        android:id="@+id/txtAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="@string/_0"
         android:layout_gravity="center" />
 
 </FrameLayout>
